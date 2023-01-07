@@ -1,0 +1,63 @@
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body{
+  height: 100%;
+}
+
+ul,
+ol,
+li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.ping-pong__top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  padding: 10px 0px;
+}
+.ping-pong__start {
+  font-size: inherit;
+  padding: 0px 20px;  
+}
+
+.ping-pong__score {
+  font-size: 40px;
+  font-weight: bold;
+  flex: 0 1 54%;
+}
+
+.ping-pong__game-window{
+  position: relative;
+}
+
+.ping-pong__pop-up{
+  position: absolute;
+  z-index: 5;
+  top: 40%;
+  font-weight: bold;
+  font-size: 60px; 
+  width: 100%;
+  text-align: center;
+}
+
+
